@@ -12,6 +12,7 @@ function Form  (props) {
  function handleSubmit  (e)  {
     e.preventDefault();
     e.target.reset();
+    
     bodyData && setbody([...body, bodyData]);
     const formData = {
       method:`${method}`,

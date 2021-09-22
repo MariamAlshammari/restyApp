@@ -3,7 +3,7 @@ import {useState , useEffect} from "react";
 
 function Form  (props) {
 
-  const [url , setUrl] = useState('from useState');
+  const [url , setUrl] = useState('https://jordan-black-iris.herokuapp.com/places');
   const [method , setMethod] = useState('GET');
   const [body, setbody] = useState([]);
   const [bodyData,setbodyData]=useState("");
